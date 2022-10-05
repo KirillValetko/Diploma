@@ -1,0 +1,59 @@
+﻿@model HotelViewModel
+
+@{
+    ViewData["Title"] = "Hotel info";
+}
+
+<h1>Hotel info</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HotelName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HotelName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NumberOfFloors)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumberOfFloors)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NumberOfRooms)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumberOfRooms)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parking)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parking)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Addr)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Addr)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EMail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EMail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+    </dl>
+
+    <div class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Hotel" asp-action="FindRoom" asp-route-id="@Model.HotelId">Find a room to book</a>  
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@model ClientViewModel
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<div class="col-md-12">
+    @using (Html.BeginForm("Create", "Client", FormMethod.Post))
+    {
+        <div class="col-md-12">
+            First name
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.FirstName)
+        </div>
+
+        <div class="col-md-12">
+            Last name
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.LastName)
+        </div>
+
+        <div class="col-md-12">
+            E-mail
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.EMail)
+        </div>
+
+        <div class="col-md-12">
+            Password
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.PasswordHash)
+        </div>
+
+        <div class="col-md-12">
+            <input type="submit" value="Submit" />
+        </div>   
+    }
+</div>

@@ -1,0 +1,31 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Authentication";
+}
+
+<div class="col-md-12">
+    @using (Html.BeginForm("Login", "User", FormMethod.Post))
+    {
+        <div class="col-md-12">
+            e-mail:
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.EMail)
+        </div>
+
+        <div class="col-md-12">
+            password:
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.Password)
+        </div>
+
+        <div class="col-md-12">
+            <input type="submit" value="Submit" />
+        </div>
+
+        <div class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="RegistrationChoice">Don't have an account. Register now</a>  
+        </div>     
+    }
+</div>

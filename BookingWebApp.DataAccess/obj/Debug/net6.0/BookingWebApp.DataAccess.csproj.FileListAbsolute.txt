@@ -1,0 +1,14 @@
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\bin\Debug\net6.0\BookingWebApp.DataAccess.deps.json
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\bin\Debug\net6.0\BookingWebApp.DataAccess.runtimeconfig.json
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\bin\Debug\net6.0\BookingWebApp.DataAccess.dll
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\bin\Debug\net6.0\BookingWebApp.DataAccess.pdb
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\BookingWebApp.DataAccess.csproj.AssemblyReference.cache
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\BookingWebApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\BookingWebApp.DataAccess.AssemblyInfoInputs.cache
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\BookingWebApp.DataAccess.AssemblyInfo.cs
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\BookingWebApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\BookingWebApp.DataAccess.dll
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\refint\BookingWebApp.DataAccess.dll
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\BookingWebApp.DataAccess.pdb
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\BookingWebApp.DataAccess.genruntimeconfig.cache
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.DataAccess\obj\Debug\net6.0\ref\BookingWebApp.DataAccess.dll

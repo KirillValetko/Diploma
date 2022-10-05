@@ -1,0 +1,17 @@
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\bin\Debug\net6.0\BookingWebApp.BusinessLogic.deps.json
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\bin\Debug\net6.0\BookingWebApp.BusinessLogic.runtimeconfig.json
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\bin\Debug\net6.0\BookingWebApp.BusinessLogic.dll
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\bin\Debug\net6.0\BookingWebApp.BusinessLogic.pdb
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\BookingWebApp.BusinessLogic.csproj.AssemblyReference.cache
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\BookingWebApp.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\BookingWebApp.BusinessLogic.AssemblyInfoInputs.cache
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\BookingWebApp.BusinessLogic.AssemblyInfo.cs
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\BookingWebApp.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\BookingWebApp.BusinessLogic.dll
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\refint\BookingWebApp.BusinessLogic.dll
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\BookingWebApp.BusinessLogic.pdb
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\BookingWebApp.BusinessLogic.genruntimeconfig.cache
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\ref\BookingWebApp.BusinessLogic.dll
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\bin\Debug\net6.0\BookingWebApp.DataAccess.dll
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\bin\Debug\net6.0\BookingWebApp.DataAccess.pdb
+D:\C# курсы\Diploma\BookingWebApp\BookingWebApp.BusinessLogic\obj\Debug\net6.0\BookingWebApp.BusinessLogic.csproj.CopyComplete

@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BookingWebApp
+build_property.RootNamespace = BookingWebApp
+build_property.ProjectDir = D:\C# курсы\Diploma\BookingWebApp\BookingWebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\C# курсы\Diploma\BookingWebApp\BookingWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Booking/ConfirmCancelation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDb25maXJtQ2FuY2VsYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Booking/ViewBookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xWaWV3Qm9va2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Client/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Hotel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Hotel/FindRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcRmluZFJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Hotel/HotelRooms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcSG90ZWxSb29tcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Hotel/ViewHotels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcVmlld0hvdGVscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Hotel/ViewInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcVmlld0luZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/User/RegistrationChoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3RyYXRpb25DaG9pY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# курсы/Diploma/BookingWebApp/BookingWebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1se4db4v99

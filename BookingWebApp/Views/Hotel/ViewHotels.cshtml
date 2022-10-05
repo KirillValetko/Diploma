@@ -1,0 +1,73 @@
+﻿@model BookingWebApp.Logic.PaginatedList<HotelViewModel>
+@{
+    ViewData["Title"] = "Booking";
+}
+
+<h2>Booking</h2>
+
+<form asp-controller="Client" asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Hotel name: <input type="text" name="searchHotelByName"/>
+            <input type="submit" value="Search" class="btn btn-default"/>
+        </p>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model[0].HotelName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Addr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].EMail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].PhoneNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HotelName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Addr)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EMail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    <a asp-controller="Hotel" asp-action="FindRoom" asp-route-id="@item.HotelId">View</a> 
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="ViewHotels"
+   asp-route-pageIndex="@(Model.PageIndex - 1)"
+   class="btn btn-default @prevDisabled">
+    Previous
+</a>
+<a asp-action="ViewHotels"
+   asp-route-pageIndex="@(Model.PageIndex + 1)"
+   class="btn btn-default @nextDisabled">
+    Next
+</a>

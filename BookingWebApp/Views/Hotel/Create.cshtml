@@ -1,0 +1,90 @@
+﻿@model HotelViewModel
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<div class="col-md-12">
+    @using (Html.BeginForm("Create", "Client", FormMethod.Post))
+    {
+        <div class="col-md-12">
+            Hotel name
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.HotelName)
+        </div>
+
+        <div class="col-md-12">
+            Number of floors
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.NumberOfFloors)
+        </div>
+
+        <div class="col-md-12">
+            Number of rooms
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.NumberOfRooms)
+        </div>
+
+        <div class="col-md-12">
+            Parking
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.Parking)
+        </div>
+
+        <div class="col-md-12">
+            Coutry
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.Country)
+        </div>
+
+        <div class="col-md-12">
+            City
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.Sity)
+        </div>
+
+        <div class="col-md-12">
+            Street
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.Street)
+        </div>
+
+        <div class="col-md-12">
+            Building
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.Building)
+        </div>
+
+        <div class="col-md-12">
+            Phone number
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.PhoneNumber)
+        </div>
+
+        <div class="col-md-12">
+            E-mail
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.EMail)
+        </div>
+
+        <div class="col-md-12">
+            Password
+        </div>
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.PasswordHash)
+        </div>
+
+        <div class="col-md-12">
+            <input type="submit" value="Submit" />
+        </div>   
+    }
+</div>

@@ -1,0 +1,45 @@
+﻿@model BookingViewModel
+
+@{
+    ViewData["Title"] = "Cancel";
+}
+
+<h1>Cancel</h1>
+
+<h3>Are you sure you want to cancel this?</h3>
+<div>
+    <h4>Booking</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Hotel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Hotel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RoomNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RoomNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CheckInDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CheckInDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CheckOutDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CheckOutDate)
+        </dd>
+    </dl>
+    
+    <form asp-action="ConfirmCancelation">
+        <input type="hidden" asp-for="BookingId" />
+        <input type="submit" value="Cancel" class="btn btn-danger" /> |
+        <a asp-controller="Client" asp-action="ViewBookings">Back to List</a>
+    </form>
+</div>

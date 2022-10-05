@@ -1,0 +1,64 @@
+﻿@model BookingWebApp.Logic.PaginatedList<BookingViewModel>
+@{
+    ViewData["Title"] = "My bookings";
+}
+
+<h2>My bookings</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Hotel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].RoomNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].CheckInDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].CheckOutDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].Hotel)
+                </th>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RoomNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CheckInDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CheckOutDate)
+                </td>
+                <td>
+                    <a asp-controller="Booking" asp-action="CancelBooking" asp-route-id="@item.BookingId">Cancel</a> 
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="ViewBookings"
+   asp-route-pageIndex="@(Model.PageIndex - 1)"
+   class="btn btn-default @prevDisabled">
+    Previous
+</a>
+<a asp-action="ViewBookings"
+   asp-route-pageIndex="@(Model.PageIndex + 1)"
+   class="btn btn-default @nextDisabled">
+    Next
+</a>
